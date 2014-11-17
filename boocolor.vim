@@ -1,7 +1,7 @@
 " Vim color file
-" Maintainer:   Your name <youremail@something.com>
-" Last Change:  
-" URL:		
+" Maintainer: Noemi Losada Estrella <info@noemilosada.com>
+" Last Change: 17/11/2014
+" URL: http://github.com/noemilosada/vim-boo-color		
 
 " cool help screens
 " :he group-name
@@ -9,12 +9,15 @@
 " :he cterm-colors
 
 " your pick:
-set background=dark	" or light
+set background=dark
+
 hi clear
+
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="mycolorscheme"
+
+let g:colors_name="boocolor"
 
 "hi Normal
 
